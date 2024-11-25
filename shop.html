@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Caroline Boutique</title>
+
+  <!-- External CSS & JS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- External JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">
+      <img src="images/Logo-removebg-preview (3) - Copy - Copy.png" width="80" height="80" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="chart.html">
+            <i class="fa fa-shopping-cart fa-2x">
+              <span id="cartCounter" class="cart-counter">0</span>
+            </i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Welcome Section -->
+  <div class="cover-container d-flex h-100 text-center justify-content-center align-items-center">
+    <div class="cover-content">
+      <h1 class="animated-text">Welcome to Caroline Boutique</h1>
+      <p class="lead">Elegant, Timeless Fashion for Every Woman</p>
+      <button class="custom-btn add-to-cart">Shop Now</button>
+    </div>
+  </div>
+
+  <!-- Social Media Icons -->
+  <div class="icon-bar">
+    <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.google.com" target="_blank" class="google"><i class="fa fa-google"></i></a>
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+  </div>
+
+  <!-- Featured Products Section -->  <section class="featured-products py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Featured Products</h2>
+      <div class="row g-4">
+
+        <!-- Product 1 -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100">
+            <img src="images/light dress .png" alt="Floral Dress" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Floral Dress</h3>
+              <p class="card-text text-muted">$120.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100">
+            <img src="images/dress1.png" alt="Evening Gown" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Evening Gown</h3>
+              <p class="card-text text-muted">$220.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100">
+            <img src="images/handbag.jpeg" alt="Ladies Handbags" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Ladies Handbags</h3>
+              <p class="card-text text-muted">$20.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100">
+            <img src="images/WINTER.jpeg" alt="Winter Jacket" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Winter Jacket</h3>
+              <p class="card-text text-muted">$150.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100">
+            <img src="images/SUYUNYGLASSESS.jpeg" alt="Sunglasses" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Sunglasses</h3>
+              <p class="card-text text-muted">$45.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100">
+            <img src="images/shoes - Copy (2) - Copy.jpeg" alt="High Heels" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">High Heels</h3>
+              <p class="card-text text-muted">$80.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add other products similarly... -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="cta-section text-center py-5 bg-dark text-white">
+    <h3 class="glow">TRENDING FASHION</h3>
+    <a href="shop.html" class="btn btn-lg btn-light">Shop Now</a>
+  </section>
+  <section class="featured-products py-5">
+	<div class="container">
+	
+		<div class="row g-4">
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src=" URLhttps://www.google.com/imgres?q=trending%20fashions&imgurl=https%3A%2F%2Fwww.instyle.com%2Fthmb%2FrUreb52OIHgaYkMvWkhImvjt6kc%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FGettyImages-1469594147-95ff00fcb2ac4fabb5423a50647a03ff.jpg&imgrefurl=https%3A%2F%2Fwww.instyle.com%2F2023-fall-fashion-trends-7568601&docid=3_1Bz8JfeionRM&tbnid=9t8ShKFYfbs5uM&vet=12ahUKEwjl7_XcueyJAxUb1wIHHdyFCOY4FBAzegQIOhAA..i&w=1500&h=1000&hcb=2&ved=2ahUKEwjl7_XcueyJAxUb1wIHHdyFCOY4FBAzegQIOhAA" alt="Product 1" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Floral Dress</h3>
+						<p class="card-text text-muted">$120.00</p>
+						<button class="custom-btn add-to-cart">Shop Now</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src="images/dress11 - Copy - Copy - Copy.png" alt="Product 2" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Evening Gown</h3>
+						<p class="card-text text-muted">$220.00</p>
+						<button class="custom-btn add-to-cart">Shop Now</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src="images/handbag.jpeg" alt="Product 3" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Ladies Handbags</h3>
+						<p class="card-text text-muted">$20.00</p>
+						<button class="custom-btn add-to-cart">Shop Now</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src="images/sandles.jpeg" alt="Product 2" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Classic Sandles</h3>
+						<p class="card-text text-muted">$220.00</p>
+						<button class="custom-btn add-to-cart">Shop Now</a>
+
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src="images/dress14.png" alt="Product 2" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Turkish Casual </h3>
+						<p class="card-text text-muted">$50</p>
+						<button class="custom-btn add-to-cart">Shop Now</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src="images/dress20.png" alt="Product 2" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Summer Top</h3>
+						<p class="card-text text-muted">$20</p>
+						<button class="custom-btn add-to-cart">Shop Now</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src="images/Dress26 - Copy.png" alt="Product 2" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Stylish Wear</h3>
+						<p class="card-text text-muted">$20.</p>
+						<button class="custom-btn add-to-cart">Shop Now</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src="images/dress1.png" alt="Product 2" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Summer Dress</h3>
+						<p class="card-text text-muted">$20</p>
+						<button class="custom-btn add-to-cart">Shop Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src="images/dress7.jpeg" alt="Product 3" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Casual Top</h3>
+						<p class="card-text text-muted">$50.00</p>
+						<button class="custom-btn add-to-cart">Shop Now</a>
+					</div>
+				</div>
+
+</section>
+<div class="cta">
+<section class="cta-section text-center py-5 bg-dark text-white">
+	<div class="container"></div>
+		<h3 class="glow">NEW ARRIVALS</H2>
+			<a href="shop.html" class="btn btn-lg btn-light">Shop Now</a>
+	</div>
+</section>
+</div>
+
+<div class="container-fluid">
+	<div class="row g-4">
+		<div class="col">
+			<div class="card border-0 shadow w-100">
+				<img src="images/handbag.jpeg" alt="PRODUCT 1" class="card-img-top">
+				<div class="card-body text-center">
+					<h3 class="card-title">Classic Handbag</h3>
+					<p class="card-text text-muted">$99.00</p>
+					<button class="custom-btn add-to-cart">Shop Now</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card border-0 shadow w-100">
+				<img src="images/ice.jpg" alt="shoes" class="card-img-top">
+				<div class="card-body text-center">
+					<h3 class="card-title">Ice belt</h3>
+					<p class="card-text text-muted">$80</p>
+					<button class="custom-btn add-to-cart">Shop Now</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card border-0 shadow w-100">
+				<img src="images/shoes.jpeg" alt="hihh hills" class="card-img-top">
+				<div class="card-body text-center">
+					<h3 class="card-title">Ladies Steppers</h3>
+					<p class="card-text text-muted">$99.00</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card border-0 shadow w-100">
+				<img src="images/j4.jpg" alt="casual" class="card-img-top">
+				<div class="card-body text-center">
+					<h3 class="card-title">jordan 4</h3>
+					<p class="card-text text-muted">$52</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card border-0 shadow w-100">
+				<img src="images/hat.jpeg " alt="New Arrival 1" class="card-img-top">
+				<div class="card-body text-center">
+					<h3 class="card-title">Classic SummerHats</h3>
+					<p class="card-text text-muted">$24.00</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card border-0 shadow h-100">
+				<img src="images/jacket.jpeg" alt="New Arrival 1" class="card-img-top">
+				<div class="card-body text-center">
+					<h3 class="card-title">Denim jacket</h3>
+					<p class="card-text text-muted">$230</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card border-0 shadow h-100">
+				<img src="images/louis.jpeg" alt="louisVutton" class="card-img-top">
+				<div class="card-body text-center">
+					<h3 class="card-title">Louis Vutton Bag</h3>
+					<p class="card-text text-muted">$43</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="card border-0 shadow h-100">
+				<img src="images/dior.png" alt="Dior Jackets" class="card-img-top">
+				<div class="card-body text-center">
+					<h3 class="card-title"> Dior Hat</h3>
+					<p class="card-text text-muted">$10</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card border-0 shadow h-100">
+				<img src="images/gucci.jpeg" alt="Dior Jackets" class="card-img-top">
+				<div class="card-body text-center">
+					<h3 class="card-title">Gucci Bag</h3>
+					<p class="card-text text-muted">$10</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card border-0 shadow h-100">
+				<img src="images/ladies - Copy (2).jpg" alt="Dior Jackets" class="card-img-top">
+				<div class="card-body text-center">
+					<h3 class="card-title">Ladies Wears</h3>
+					<p class="card-text text-muted">$20</p><button class="custom-btn add-to-cart">Shop Now</button>
+
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card border-0 shadow h-100">
+				<img src="images/jean.jpg" alt="eye glasses" class="card-img-top">
+				<div class="card-body text-center">
+					<h3 class="card-title">Classic Jean</h3>
+					<p class="card-text text-muted">$30</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card border-0 shadow h-100">
+				<img src="images/dress15.png" alt="Dior Jackets" class="card-img-top">
+				<div class="card-body text-center">
+					<h3 class="card-title"> Daniel Alves</h3>
+					<p class="card-text text-muted">$10</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+  <!-- Footer Section -->
+  <footer>
+    <div class="py-5 text-center text-white bg-dark">
+      <div class="row">
+        <div class="col">
+          <h3>About Us</h3>
+          <p>We are located at Muniki Suk Libya along 107 road.</p>
+        </div>
+        <div class="col">
+          <h3>Contact</h3>
+          <ul>
+            <li>Email: yangmoses66@gmail.com</li>
+            <li>Phone: +256 764102504</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Subscribe</h3>
+          <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <p class="text-center">&copy; 2024 Caroline Boutique designed by Yang G. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <a href="#" class="back-to-top" title="Back to Top">
+    <i class="fas fa-arrow-up fa-2x"></i>
+  </a>
+
+  <!-- JavaScript for Cart Count -->
+  <script>
+    // Initialize the cart count from localStorage (if any)
+    let cartCount = parseInt(localStorage.getItem('cartCount') || '0');
+    
+    // Function to update the cart counter on the page
+    function updateCartCounter() {
+      document.getElementById('cartCounter').textContent = cartCount;
+      localStorage.setItem('cartCount', cartCount);
+    }
+
+    // Event listener for "Shop Now" buttons to add products to the cart
+    const addToCartButtons = document.querySelectorAll('.add-to-cart');
+    addToCartButtons.forEach((button) => {
+      button.addEventListener('click', function() {
+        cartCount++; // Increase the cart count by 1 each time a product is added
+        updateCartCounter(); // Update the cart counter on the page
+        alert("Product added to cart!");
+      });
+    });
+
+    // On page load, update the cart counter
+    updateCartCounter();
+  </script>
+</body>
+
+</html>
